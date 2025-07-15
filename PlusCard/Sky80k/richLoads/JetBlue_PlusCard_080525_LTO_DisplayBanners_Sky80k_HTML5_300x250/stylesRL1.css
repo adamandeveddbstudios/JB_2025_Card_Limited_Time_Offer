@@ -1,0 +1,273 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  border: 1px solid #000000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 300px;
+  height: 250px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 250px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 300px;
+  height: 250px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+.posAbsolute {
+  position: absolute;
+}
+
+.posRelative {
+
+  position: relative;
+}
+
+.bannerSize {
+
+  width: 300px;
+  height: 250px;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+}
+
+
+
+.w100 {
+
+  width: 100%;
+}
+
+.ESKlarheitGrotesk {
+
+  font-family: 'ESKlarheitGrotesk Xbd';
+}
+
+.ESKlarheitGroteskSmbd {
+
+  font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
+}
+
+.f44 {
+  font-size: 44px;
+}
+
+/*pre styles end*/
+.shadow {
+  width: 300px;
+  top: 0px;
+}
+
+.logo {
+  top: 203px;
+  left: 23px;
+  width: 85px;
+  height: auto;
+}
+
+.copy1 {
+  color: #0000aa;
+  top: 29.7px;
+  left: 22px;
+  font-size: 23px;
+  line-height: 27.1px;
+  text-align: center;
+}
+
+.copy2 {
+  color: #0000aa;
+  top: 51.2px;
+  left: 19px;
+  font-size: 54.3px;
+  line-height: 68.6px;
+  text-align: center;
+}
+
+.copy3 {
+  color: #0000aa;
+  top: 107px;
+  left: 22px;
+  font-size: 23px;
+  line-height: 24px;
+  text-align: center
+}
+
+span.star {
+  font-size: 12px;
+}
+
+.card1 {
+  width: 134px;
+  height: auto;
+  top: 132px;
+  left: 143px;
+}
+
+.terms {
+  top: 219px;
+  left: 141.6px;
+  font-size: 6.03px;
+  color: #0000aa;
+}
+
+span.star1 {
+  font-size: 6px;
+}
+
+.orange_dash {
+  background-color: #ff6433;
+  height: 9px;
+  top: 0px;
+}
+
+
+.copy4 {
+  color: #0000aa;
+  top: 9px;
+  left: 21px;
+  font-size: 23px;
+  line-height: 29px;
+  text-align: left;
+}
+
+#frame3 {
+  top: 240px;
+  background-color: #ffffff;
+}
+
+.copy5 {
+  font-size: 26.8px;
+  color: #0000aa;
+  left: -3.1px;
+  top: 28.6px;
+  line-height: 34.7px;
+  text-align: center;
+}
+
+.copy6 {
+  font-size: 26.9px;
+  color: #ff6433;
+  left: -7px;
+  top: 27.9px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.card_animation {
+  top: 54.2px;
+  left: 143px;
+  width: 134px;
+  height: 84px;
+  overflow: hidden;
+}
+
+.card2 {
+  width: 134px;
+  height: auto;
+}
+
+.terms2 {
+  top: 58px;
+  left: 231px;
+  font-size: 7.5px;
+  color: #0000aa;
+}
+
+
+#cta {
+  width: 107px;
+  height: 35px;
+  background-color: #ff6433;
+  border-radius: 3px;
+  color: #ffffff;
+  font-family: "ESKlarheitGrotesk Smbd";
+  text-align: center;
+  font-size: 13px;
+  top: -36px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.logo_blue {
+  top: -2px;
+  left: 23px;
+  width: 85px;
+  height: auto;
+}
+
+
+#shine1 {
+  width: 214px;
+  height: auto;
+  top: -61px;
+  left: -208px;
+}
