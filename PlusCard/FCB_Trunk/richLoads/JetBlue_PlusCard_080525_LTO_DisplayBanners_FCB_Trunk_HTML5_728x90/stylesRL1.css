@@ -184,27 +184,27 @@ video {
   background-color: #ffffff;
 }
 
+
 .copy3 {
-  font-size: 23px;
+  font-size: 24.3px;
   color: #0000aa;
-  left: 20px;
-  top: -2px;
+  left: 33px;
+  top: -0.3px;
   line-height: 37.6px;
   text-align: left;
 }
 
 .copy4 {
-  font-size: 23px;
+  font-size: 24.3px;
   color: #ff0889;
-  left: -240px;
-  top: -10px;
+  left: -222px;
+  top: -9.5px;
   line-height: 36px;
   text-align: center;
 }
-
 .card_animation {
-  top: -78px;
-  left: 389px;
+  top: -77px;
+  left: 455px;
   width: 99px;
   height: 63px;
   overflow: hidden;
@@ -217,22 +217,21 @@ video {
 
 .terms2 {
   top: -76px;
-  left: 443px;
+  left: 507px;
   font-size: 7.5px;
   color: #0000aa;
 }
-
 #cta {
-  width: 86px;
-  height: 30px;
+  width: 100px;
+  height: 32px;
   background-color: #ff0889;
   border-radius: 3px;
   color: #ffffff;
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
-  font-size: 10.6px;
+  font-size: 12px;
   top: -126px;
-  left: 269px;
+  left: 303px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -241,7 +240,7 @@ video {
 
 .logo_blue {
   top: -156px;
-  left: 594px;
+  left: 600px;
   width: 92px;
   height: auto;
 }
