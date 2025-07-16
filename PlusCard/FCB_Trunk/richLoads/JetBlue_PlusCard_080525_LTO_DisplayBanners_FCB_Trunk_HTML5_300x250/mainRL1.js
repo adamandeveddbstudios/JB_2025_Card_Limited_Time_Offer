@@ -25,13 +25,13 @@ function animate() {
   tl.set('#copy1,#copy2', { y:20 });
 
   tl.addLabel('frame1', 0)
-    .to('#copy1', 1, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
+    .to('#copy1', 1, { autoAlpha: 1, y:0, ease: Power1.easeInOut }, 'frame1')
 
-  tl.addLabel('frame2', 2)
-    .to('#copy1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2+=1')
-    .to('#copy2', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame2+=1.5')
+  tl.addLabel('frame2', 2.5)
+    .to('#copy1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
+    .to('#copy2', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame2+=0.5')
 
-  tl.addLabel('frame3', 6)
+  tl.addLabel('frame3', 4.5)
     .to('#frame3', 1, { y:-245, ease: Power1.easeInOut }, 'frame3+=0.5')
     .to('#shine1', 1, { autoAlpha: 1, x:244,y:0 }, 'frame3+=1.5');
 
