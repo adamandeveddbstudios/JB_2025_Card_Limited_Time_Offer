@@ -172,42 +172,44 @@ video {
 
 .pink_dash {
   background-color: #ff0889;
-  height: 13px;
+  height: 90px;
+  width: 10px;
   top: 0px;
-  left: -369px;
-  transform: rotate(90deg);
+  left: 0px;
 }
-
 
 #frame3 {
-  right: -729px;
-  background-color: #ffffff;
+  left: 718px;
+  background-color: #fff;
+  position: absolute;
+  height: 90px;
+  width: 100%;
 }
-
 
 .copy3 {
   font-size: 24.3px;
   color: #0000aa;
-  left: 33px;
-  top: -0.3px;
+  left: 40px;
+  top: 13px;
   line-height: 37.6px;
   text-align: left;
 }
 
-.copy4 {
+.copy4 {  
   font-size: 24.3px;
   color: #ff0889;
-  left: -222px;
-  top: -9.5px;
+  left: 40px;
+  top: 41px;
   line-height: 36px;
   text-align: center;
 }
+
 .card_animation {
-  top: -77px;
-  left: 455px;
-  width: 99px;
-  height: 63px;
-  overflow: hidden;
+      top: 10px;
+    left: 461px;
+    width: 99px;
+    height: 63px;
+    overflow: hidden;
 }
 
 .card2 {
@@ -216,8 +218,8 @@ video {
 }
 
 .terms2 {
-  top: -76px;
-  left: 507px;
+  top: 74px;
+  left: 514px;
   font-size: 7.5px;
   color: #0000aa;
 }
@@ -230,8 +232,8 @@ video {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 12px;
-  top: -126px;
-  left: 303px;
+  top: 33px;
+  left: 310px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,8 +241,8 @@ video {
 
 
 .logo_blue {
-  top: -156px;
-  left: 600px;
+  top: 33px;
+  left: 606px;
   width: 92px;
   height: auto;
 }

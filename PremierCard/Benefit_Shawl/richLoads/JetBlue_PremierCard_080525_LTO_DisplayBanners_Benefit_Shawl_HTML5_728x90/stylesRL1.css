@@ -213,9 +213,11 @@ span.star1 {
 
 
 #frame4 {
-  right: 0px;
+  left: 718px;
   background-color: #000351;
   position: absolute;
+  height: 90px;
+  width: 100%;
 }
 
 .copy4 {
@@ -225,6 +227,7 @@ span.star1 {
   font-size: 20.3px;
   line-height: 22px;
   text-align: left;
+  width: 320px;
 }
 
 .card_animation {

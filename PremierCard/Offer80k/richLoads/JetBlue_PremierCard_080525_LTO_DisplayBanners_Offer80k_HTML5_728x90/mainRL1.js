@@ -35,7 +35,7 @@ function animate() {
     .to('#copyFrame2', 1, { autoAlpha: 1,y:-10, ease: Power1.easeInOut }, 'frame3+=1.5')
 
   tl.addLabel('frame4', 8)
-    .to('#frame4', 1, { x:-720, ease: Power1.easeInOut }, 'frame4+=0.5')
+    .to('#frame4', 1, { left: 0, ease: Back.easeOut.config(.3)}, 'frame4+=0.5')
     .to('#shine1', 1, { autoAlpha: 1, x:211,y:0 }, 'frame4+=1.5');
 
 }
