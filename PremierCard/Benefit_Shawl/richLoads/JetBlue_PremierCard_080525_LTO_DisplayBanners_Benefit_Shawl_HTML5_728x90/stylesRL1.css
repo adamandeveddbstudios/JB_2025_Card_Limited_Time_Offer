@@ -213,8 +213,9 @@ span.star1 {
 
 
 #frame4 {
-  left: 718px;
+  right: 0px;
   background-color: #000351;
+  position: absolute;
 }
 
 .copy4 {
