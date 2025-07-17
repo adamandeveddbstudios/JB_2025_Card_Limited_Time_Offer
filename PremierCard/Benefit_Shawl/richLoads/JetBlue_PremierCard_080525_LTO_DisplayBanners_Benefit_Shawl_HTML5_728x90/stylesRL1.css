@@ -64,7 +64,6 @@ video {
 }
 
 .bannerSize {
-
   width: 728px;
   height: 90px;
 }
@@ -206,21 +205,21 @@ span.star1 {
 
 .blue_dash {
   background-color: #1CDAFF;
-  height: 13px;
+  height: 90px;
+  width: 10px;
   top: 0px;
-  left: -370px;
-  transform: rotate(90deg);
+  left: 0px;
 }
 
 
 #frame4 {
-  left: 728px;
+  left: 718px;
   background-color: #000351;
 }
 
 .copy4 {
   color: #ffffff;
-  top: 8px;
+  top: 22px;
   left: 29px;
   font-size: 20.3px;
   line-height: 22px;
@@ -228,7 +227,7 @@ span.star1 {
 }
 
 .card_animation {
-  top: -48px;
+  top: 9px;
   left: 461px;
   width: 99px;
   height: 63px;
@@ -257,7 +256,7 @@ span.star1 {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 10.8px;
-  top: -90px;
+  top: 31px;
   left: 333px;
   display: flex;
   align-items: center;
@@ -266,7 +265,7 @@ span.star1 {
 
 
 .logo_blue {
-  top: -119px;
+  top: 31px;
   left: 590px;
   width: 91px;
   height: auto;
